@@ -1,34 +1,27 @@
-# Devio Frontend
+Aplicação teste Fullstack fastfood devio
+Este é um projeto de exemplo de uma aplicação fullstack do iFood, que utiliza o React para o frontend e o Node.js para o backend. A aplicação permite fazer requisições ao backend para listar os itens disponiveis. 
 
-- [Deploy](https://andresdslima-devio.vercel.app)
-- [Repository](https://github.com/andresdslima/devio)
-- [Demo](https://youtu.be/sdjKzKCAlq8)
+Pré-requisitos
+Antes de começar, você precisa ter o Node.js e o npm (gerenciador de pacotes do Node.js) instalados em sua máquina.
 
-<div>
-  <h3>Technologies</h3>
-  <img align="center" alt="HTML" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
-  <img align="center" alt="Sass" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />
-  <img align="center" alt="TypeScript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg" />
-  <img align="center" alt="React.js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
-</div>
-<br />
+Instalação
+Para instalar as dependências do projeto, execute o seguinte comando no diretório raiz do projeto:
 
-<p>Fastfood Web App, excellent for any kind of restaurant!</p>
+npm install
+Este comando instalará todas as dependências necessárias para o frontend.
 
-<p>You can find the most popular options on our Home screen, where you can just simply click to select the items for your order.</p>
+Executando a aplicação
+Após instalar as dependências, você pode iniciar a aplicação utilizando o seguinte comando:
 
-<p>After that, click on "Revisar pedido" to review your order details and then click on "Finalizar pedido" to go to checkout.</p>
 
-<p>Here you can choose which way you prefer to pay, write your name and any comments you'd like to be taken into account. Then, just click on "Finalizar pedido" to see the option to print your recipe. After that, you just need to wait for your name to turn green on our "Retirada" page (top-right corner of the screen).</p>
+npm run dev
+Este comando iniciará o servidor frontend. O frontend estará acessível em http://localhost:3000.
 
-<p>On our "Cozinha" page (staff only), our top staff will rapidly take best care of your order and change its status in real time from "Preparando" to "Pronto" (green). Finally you're ready to enjoy your meal! :D</p>
+Funcionalidades
+A aplicação possui as seguintes funcionalidades:
 
-## Initialize project
-
->git clone https://github.com/andresdslima/devio.git
-
->cd devio
-
->npm install
-
->npm run dev
+Listagem de itens a serem pedidos: A página inicial exibe uma lista de itens cadastrados no sistema.
+Detalhes do pedido: Ao clicar em um item, você pode ver os detalhes do pedido em uma nova aba e decidir se quer finaliza o pedido ou continuar adicionando mais itens.
+Realização de pedidos: A aplicação permite fazer pedidos diretamente do menu do app.
+Pedido: Apos realizado o pedido, o cliente sera redirecionado para uma nova tela aonde ira pedir o nome, e observação caso o cliente queira incluir alem do metodo de pagewamento.
+Apos o pedido finalizado: Apos finalizar o pedido, os itens juntamente com o nome e observação serão encaminhados para a cozinha, sendo possivel marcar quuando o pedido esta pronnto para a retirada.
