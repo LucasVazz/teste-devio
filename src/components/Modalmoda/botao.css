@@ -1,0 +1,14 @@
+.botao-redondo {
+    border-radius: 50%; /* Define a borda redonda para criar um botão circular */
+    width: 25px; /* Define a largura do botão */
+    height: 25px; /* Define a altura do botão */
+    background-color: #125c13; /* Define a cor de fundo do botão */
+    color: #fff; /* Define a cor do texto do botão */
+    border: none; /* Remove a borda do botão */
+    cursor: pointer; /* Altera o cursor ao passar o mouse sobre o botão */
+  }
+  .contador{
+    display:flex !important;
+    flex-direction: row-reverse !important;
+    gap: 3px !important;
+  }
